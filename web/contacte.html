@@ -29,6 +29,31 @@
                 Los Angeles, CA 90067<br>
             </address>
             <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d26431.979423373126!2d-118.33543539218249!3d34.09520634365908!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x80c2bf07045279bf%3A0xf67a9a6797bdfae4!2sHollywood%2C%20Los%20%C3%81ngeles%2C%20California%2C%20EE.%20UU.!5e0!3m2!1ses!2ses!4v1634514803478!5m2!1ses!2ses" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+            <hr>
+            <h2>Formulario de Contacto</h2>
+            <div>
+                <form action="./Yes.php" method="POST">
+                    <p>
+                        <label for="idEmail"><b>Tu Correo: </b></label>
+                        <input id="idEmail" type="email" name="correo" placeholder="ejemplo@hotmail.com">
+                    </p>
+                    <p>
+                        <label for="inPhone"><b>Tu Número: </b></label>
+                        <input id="inPhone" name="Num" type="tel" placeholder="+34999999999">
+                    </p>
+                    <p>
+                        <label for="idTexto"><b>Introduce tu solicitud: </b></label>
+                        <br>
+                        <input type="text" id="idTexto" name="Texto" placeholder="Solicitud" size="50" maxlength="100">
+                    </p>
+                    <p>
+                        <input type="file" id="idMultimedia" name="multimedia" accept="image/*,audio/*,video/*" multiple>
+                    </p>
+                    <p>
+                        <button type="submit">Enviar</button>
+                    </p>
+                </form>
+            </div>
         </main>
         <footer>
             <hr>
